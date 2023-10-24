@@ -11,7 +11,7 @@
   "keywords": [
     "cypress"
   ],
-  "author": "Jorge Peña",
+  "author": "Jorge Cerdán Peña",
   "license": "ISC",
   "devDependencies": {
     "@badeball/cypress-cucumber-preprocessor": "^15.1.2",

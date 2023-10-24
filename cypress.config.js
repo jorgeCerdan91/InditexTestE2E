@@ -22,9 +22,11 @@ module.exports = defineConfig({
   viewportWidth: 1400,
   viewportHeight: 880,
   defaultCommandTimeout:10000,
+  pageLoadTimeout:10000,
+  screenshotOnRunFailure: true,
   e2e: {
     
-    baseUrl:'https://www.google.es/',
+    baseUrl:'https://www.google.es',
     async setupNodeEvents(on, config) {
       allureWriter(on, config);
       const bundler = createBundler({
